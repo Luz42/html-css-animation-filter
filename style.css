@@ -36,6 +36,11 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: opacity 3s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
 }
 
 .ex-5-square {
@@ -43,6 +48,15 @@
     width: 60px;
     height: 60px;
     background: red;
+}
+
+.ex-5-square:active{
+    height: 30px;
+
+}
+
+.ex-5-square:hover{
+
 }
 
 .ex-6-img,
