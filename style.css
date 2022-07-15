@@ -110,17 +110,25 @@
 
 .ex-10-icon {
     font-size: 60px;
-    /* animation-name: rounded;
-    animation-duration: infinite; */
+    animation-name: rounded;
+    animation-duration: 4s;
+    transform: rotate(180deg);
+        /* animation-duration: infinite; */
 }
 
-/* @keyframes rounded{
-    from: {0deg}
-} */
+@keyframes rounded {
+    from {
+        transform: rotate(180deg);
+    }
 
-.ex-10-icon:hover{
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+/* .ex-10-icon:hover{
     transform: rotate(90deg);
-}
+} */
 
 
 
