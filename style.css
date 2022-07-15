@@ -48,15 +48,17 @@
     width: 60px;
     height: 60px;
     background: red;
+    transition: width height 3s;
+}
+
+.ex-5-square:hover{
+    height: 120px;
+    width: 120px;
 }
 
 .ex-5-square:active{
     height: 30px;
-
-}
-
-.ex-5-square:hover{
-
+    width: 30px;
 }
 
 .ex-6-img,
