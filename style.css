@@ -140,12 +140,15 @@
 
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover{
+    font-size: 60px;
     animation: rounded2;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    animation-duration: 4s;}
-
-.ex-11-icon:hover{}
+    animation-duration: 4s
+}
 
 @keyframes rounded2 {
        
@@ -165,6 +168,43 @@
             transform: rotate(270deg);
         }
  }
+
+ .ex-12-button:hover .ex-12-top-white{
+    animation: rounded3;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s
+ }
+
+ @keyframes rounded3 {
+       
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+
+    25% {
+        left: 85%;
+        top: -10px;
+    }
+
+    50% {
+        left: 85%;
+        top: 50px;      
+    }
+
+    75% {
+        left:85%;
+        top: -10px;
+    }
+
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+
 
 .ex-12-button,
 .ex-13-button {
