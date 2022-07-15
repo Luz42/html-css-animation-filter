@@ -92,17 +92,37 @@
 .ex-8-img:hover{
     filter: hue-rotate(159deg);
     border-radius: 25px;
-    width: 800px
+    width: 800px;
 }
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: filter 3s, border-radius 3s, width 3s, margin 3s;
+}
+
+.ex-9-img:hover{
+    filter: hue-rotate(159deg);
+    border-radius: 25px;
+    width: 800px;
+    margin: 0
 }
 
 .ex-10-icon {
     font-size: 60px;
+    /* animation-name: rounded;
+    animation-duration: infinite; */
 }
+
+/* @keyframes rounded{
+    from: {0deg}
+} */
+
+.ex-10-icon:hover{
+    transform: rotate(90deg);
+}
+
+
 
 .ex-11-icon {
     font-size: 60px;
